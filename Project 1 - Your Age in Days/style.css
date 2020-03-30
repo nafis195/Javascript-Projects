@@ -11,3 +11,31 @@ Time- 1:46 AM
 
 
 
+.container{
+    border: 1px solid black;
+    padding: 50px;
+    width: 75%;
+    text-align: center;
+}
+
+.container-2{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.container-2 div{
+    padding: 30px;
+}
+
+.container-2 button{
+    border: 1px solid gray;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.container-3{
+    border: 1px solid black;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
