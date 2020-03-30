@@ -11,3 +11,26 @@ Time - 1:40 AM
 
 
 
+.container{
+    border: 1px solid black;
+    width: 75%;
+    text-align: center;
+    padding: 20px;
+}
+
+.generate-btn{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.cat-img{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cat-img img{
+    box-shadow: 1px gray;
+    padding: 10px;
+}
