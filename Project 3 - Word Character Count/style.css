@@ -11,3 +11,20 @@ Time - 4:48 PM
 
 
 
+.heading{
+    text-align: center;
+    padding: 5%;
+}
+
+.paragraph{
+    padding: 5% 15%;
+}
+
+.summary{
+    text-align: center;
+}
+
+.result{
+    text-align: center;
+    padding: 20px;
+}

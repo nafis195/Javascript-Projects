@@ -11,3 +11,40 @@ Time - 4:45 PM
 
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Word Character Count</title>
+</head>
+<body>
+    <div class="heading">
+        <button class="btn btn-primary">
+            <h2>Word Character Count</h2>
+        </button>
+    </div>
+    <div class="paragraph">
+        <textarea name="input" id="para-input" cols="100" rows="30"></textarea>
+    </div>
+    <div class="summary">
+        <button class="btn btn-success">
+            <h3>Summary</h3>
+        </button>
+    </div>
+    <div class="result">
+            <h5 id="character_count_with_spaces">Character Count With Spaces: </h5>
+            <h5>Character Count Without Spaces: </h5>
+            <h5>Total Word Count: </h5>
+            <h5>Total Sentences: </h5>
+            <h5>Total Vowels: </h5>
+            <h5>Total Articles: </h5>
+            <h5>Total Preposition: </h5>
+            <h5>Total Constants: </h5>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
